@@ -1,0 +1,22 @@
+.card-text{
+    font-size: 1.3rem;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#icon {
+    order: 2;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 1%;
+}
